@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import streamlit as st
-
+import os
 # Load IR data arrays
 cube_array_ir = np.load("data/cube_array_ir.npy")
 dark_corrected_cube_ir = np.load("data/dark_corrected_cube_ir.npy")
