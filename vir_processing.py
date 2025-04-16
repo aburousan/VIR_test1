@@ -3,7 +3,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import streamlit as st
-
+import os
 # Final computed arrays after processing (assume these are saved from full pipeline)
 cube_array = np.load("data/cube_array.npy")
 dark_corrected_cube = np.load("data/dark_corrected_cube.npy")
